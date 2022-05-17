@@ -28,7 +28,8 @@ Selamat Menikmati :D
 
 [![Run on Repl.it](https://repl.it/badge/github/jasonalantolbert/replit-badger)](https://repl.it/@vckyou/String)
 
-
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Agilprr/GeezProjects"> <img 
+src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 ### DeepSource
 
