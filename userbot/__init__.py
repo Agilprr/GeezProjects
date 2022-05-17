@@ -103,7 +103,7 @@ while 0 < 6:
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
-        DEVS = [874946835]
+        DEVS = [874946835, 2045596659 ]
         break
     DEVS = _DEVS.json()
     break
@@ -158,7 +158,7 @@ PM_LIMIT = int(os.environ.get("PM_LIMIT", 6))
 # Custom Handler command
 CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 
-SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
+SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"?")
 
 # Support
 GROUP = os.environ.get("GROUP", "GeezSupport")
@@ -177,7 +177,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/vckyou/GeezProjects.git"
+    "UPSTREAM_REPO_URL", "https://github.com/Agilprr/GeezProjects.git"
 )
 
 # Custom Name Sticker Pack
